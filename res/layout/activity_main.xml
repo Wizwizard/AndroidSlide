@@ -1,0 +1,13 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.androidslide.MainActivity" >
+
+    <com.example.androidslide.MyView
+        android:background="#00ffff" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!-- 我们给View设置一个蓝色的背景，方便比较View的区域和我们绘制的圆的区域 -->
+
+</RelativeLayout>
